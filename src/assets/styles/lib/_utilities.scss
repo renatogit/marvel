@@ -1,0 +1,42 @@
+%u-bold { font-weight: bold;}
+%u-no-bold {font-weight: normal;}
+%u-italic {font-style: italic;}
+%u-no-italic {font-size: normal;}
+
+%u-text-align-left {text-align: left;}
+%u-text-align-center {text-align: center;}
+%u-text-align-right {text-align: right;}
+%u-text-align-justify {text-align: justify;}
+
+%u-underline {text-decoration: underline;}
+%u-strike {text-decoration: line-through;}
+%u-no-text-decoration {text-decoration: none;}
+
+%u-uppercase {text-transform: uppercase;}
+%u-capitalize {text-transform: capitalize;}
+%u-no-text-transform {text-transform: none;}
+
+%u-position-absolute {position: absolute;}
+%u-position-relative {position: relative;}
+%u-position-fixed {position: fixed;}
+%u-position-static {position: static;}
+
+%u-no-padding {padding: 0;}
+%u-no-margin {margin: 0;}
+
+%u-display-flex {display: flex;}
+%u-display-block {display:block;}
+%u-display-none {display:none;}
+
+%u-flex-direction-row {flex-direction: row;}
+%u-flex-direction-column {flex-direction: column;}
+
+%u-flex-wrap-wrap {flex-wrap: wrap;}
+%u-flex-wrap-wrap-reverse {flex-wrap: wrap-reverse;}
+%u-flex-wrap-nowrap {flex-wrap: nowrap;}
+
+%u-flex-align-items-center {align-items: center;}
+%u-flex-align-items-flex-start {align-items: flex-start;}
+%u-flex-align-items-flex-end {align-items: flex-end;}
+%u-flex-align-items-stretch {align-items: stretch;}
+%u-flex-align-items-baseline {align-items: baseline;}

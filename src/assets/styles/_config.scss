@@ -1,0 +1,20 @@
+@font-face {
+	font-family: "lato";
+	src: url("/assets/font/lato-regular-webfont.woff2") format("woff2"),
+			 url("/assets/font/lato-regular-webfont.woff") format("woff");
+	font-style: normal;
+	font-weight: bold;
+}
+
+html,
+body {
+	font-family: "lato";
+	margin: 0;
+	padding: 0;
+	font-family: "lato";
+	background-color: #ccc;
+	color: #555;
+	text-align: center;
+}
+
+
