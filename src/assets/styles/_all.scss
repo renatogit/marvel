@@ -1,7 +1,9 @@
-@import 'config';
 
-/*SEMANTICO*/ 
-@import './semantico/header';
-@import './semantico/footer';
-@import './semantico/_main.scss';
-@import './semantico/aside';
+/*LAYOUT*/ 
+@import './layout/header';
+@import './layout/footer';
+@import './layout/_main.scss';
+@import './layout/aside';
+
+/* CONFIG */
+@import './config';
