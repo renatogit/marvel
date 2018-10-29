@@ -17,10 +17,11 @@ const marvelApi = (path, callback) => {
     .get(Url + path + '?ts=' + ts + '&apikey=' + PUBLIC_KEY + '&hash=' + hash)
     .set( 'Accept', 'application/json')
     .then(callback)
-    // .catch(err => {
-    //     err.message, err.response
-    // });
+    .catch(err => {
+        err.message, err.response
+    });
 }
+// console.log('Url: ',Url + 'comics' + '?ts=' + ts + '&apikey=' + PUBLIC_KEY + '&hash=' + hash);
 
 
 export default marvelApi;
