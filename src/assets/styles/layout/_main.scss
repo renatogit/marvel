@@ -3,7 +3,26 @@ body {
 }
 
 main {
-	margin: 48px 50px;
+	margin: 70px 50px;
 	position: static;
 	font-size: 12px;
 }
+
+
+::-webkit-scrollbar {
+width: 5px;
+&-track{
+	box-shadow: inset 0 0 5px grey; 
+	border-radius: 10px;
+	width:5px;
+	margin:50px;
+}
+	&-thumb {
+		background: red; 
+		border-radius: 2px;
+		&vertical{
+			height: 10px;
+		}
+	}
+}
+

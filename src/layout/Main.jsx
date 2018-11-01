@@ -1,6 +1,6 @@
 import React from 'react'
 import marvelApi from '../components/Api'
-import MarvelImg from	'../assets/image/dbb2129035f83c491af200bb58e257cc.jpg'
+
 
 class Main extends React.Component{
     
@@ -34,14 +34,14 @@ class Main extends React.Component{
           <main className="main"> 
             {/* {console.log('series:', series)} */}
             <section>
-							{series.length === 0 ? <h2 className="loading">Carregando ...</h2> : null }															
+							{data.length === 0 ? <h2 className="loading">Loading ...</h2> : null }															
               <nav>
                 <ul className="hero">
 									{ data.map( (n, i)=> 
 										<li key={i} className="hero__content">  
 											<h2  className="hero__title">	{ n.title} </h2>
 												{(n.images.length > 0 ? n.images.map(n => <img className="hero__img" src={ n.path + '.'+ n.extension} />)
-																							: <img className="hero__img" src={MarvelImg} />
+																							: <img className="hero__img" src="assets/images/marvel.jpg" />
 												)}
 										</li>	)
 									}

@@ -1,22 +1,37 @@
+$gold-number-width: calc(300px / 1.618033);
+
+@mixin gold-number($height){
+	height: $height;
+	width: $height / 1.618033;
+}
+
+
+
 .hero {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-auto-rows: 450px;
-	grid-gap: 5px;
+	grid-template-columns: repeat(4, .8fr);
+	grid-auto-rows: 350px;
+	grid-gap: 20px;
 	
 	&__content {
 		text-align: center;
-		border: solid 1px #fff;
+		background-color: #eee;
+		display: grid;
+		grid-template-columns: $gold-number-width;
+		grid-template-rows: 50px, 1fr;
+		overflow-y: auto;
+		overflow-x: hidden;
 	}
 
 	&__title {
 		font-size: 14px;
 		margin: 10px 0; 
+		text-overflow: ellipsis; 
 	}
 
 	&__img {
-		max-width: 247.21px;
-		max-height: 400px;
+		@include gold-number(300px);
+		bottom: 0;
 	}
 
 }
