@@ -34,6 +34,7 @@ class Main extends React.Component{
           <main className="main"> 
             {/* {console.log('series:', series)} */}
             <section>
+							
 							{data.length === 0 ? <h2 className="loading">Loading ...</h2> : null }															
               <nav>
                 <ul className="hero">

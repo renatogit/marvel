@@ -7,6 +7,8 @@ footer {
 	background: #666;
 	color: #fefefe;
 	z-index: 9999;
+	display: flex !important;
+	flex-direction: column;
 	h1{
 		margin: 0;
 	}

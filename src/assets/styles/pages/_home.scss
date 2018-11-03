@@ -5,8 +5,6 @@ $gold-number-width: calc(300px / 1.618033);
 	width: $height / 1.618033;
 }
 
-
-
 .hero {
 	display: grid;
 	grid-template-columns: repeat(4, .8fr);
@@ -15,23 +13,25 @@ $gold-number-width: calc(300px / 1.618033);
 	
 	&__content {
 		text-align: center;
-		background-color: #eee;
 		display: grid;
-		grid-template-columns: $gold-number-width;
-		grid-template-rows: 50px, 1fr;
+		grid-template-rows: 1fr;
 		overflow-y: auto;
 		overflow-x: hidden;
+		&:hover{
+			border: 1px #eee solid;
+			padding: 0;
+		}
 	}
 
 	&__title {
-		font-size: 14px;
-		margin: 10px 0; 
-		text-overflow: ellipsis; 
+		font-size: 13px;
+		margin: 5px 0; 
 	}
 
 	&__img {
 		@include gold-number(300px);
-		bottom: 0;
+		margin: 0 auto;
+
 	}
 
 }
