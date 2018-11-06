@@ -1,5 +1,4 @@
 $gold-number-width: calc(300px / 1.618033);
-
 @mixin gold-number($height){
 	height: $height;
 	width: $height / 1.618033;
@@ -18,7 +17,7 @@ $gold-number-width: calc(300px / 1.618033);
 		overflow-y: auto;
 		overflow-x: hidden;
 		&:hover{
-			border: 1px #eee solid;
+			
 			padding: 0;
 		}
 	}
@@ -31,7 +30,10 @@ $gold-number-width: calc(300px / 1.618033);
 	&__img {
 		@include gold-number(300px);
 		margin: 0 auto;
-
+		&:hover{
+			@include gold-number(350px);
+			// position: absolute;
+		}
 	}
 
 }

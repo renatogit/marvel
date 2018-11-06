@@ -1,5 +1,5 @@
 import React from 'react'
-import marvelApi from '../components/Api'
+import Generics from '../api/generics'
 
 class Footer extends React.Component{
     
@@ -7,7 +7,7 @@ class Footer extends React.Component{
 		data: [],
 	}
 	componentDidMount(){
-		marvelApi('comics', res => {
+		Generics.getComics(res => {
 			this.setState({ data: res.body })
 		})
 	}
@@ -16,10 +16,9 @@ class Footer extends React.Component{
 		console.log(data);
 		
 		return(
-			<footer>
+			<footer className="footer">
 				<span>{data.copyright}</span>
 				{data.attributionText}
-				{data.attributionHTML}
 			</footer>
 		)
 	}
