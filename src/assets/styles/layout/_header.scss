@@ -10,12 +10,12 @@
 	display: flex !important;
 	justify-content: center;
 	flex-direction: column;
-
+	color: $gray-A200;
 	&__top {
 		display: flex;
 		position: relative;
 		height: 48px;
-		background-color: $gray-A200;
+		background-color: #4b0a0c;
 		margin: 0;
 		padding: 0;
 	}
