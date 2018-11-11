@@ -1656,3 +1656,5 @@ const CREATORS = {
 		]
 	}
 }
+
+export default CREATORS;

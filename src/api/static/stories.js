@@ -1,4 +1,4 @@
-const stories = {
+export default {
 	"code": 200,
 	"status": "Ok",
 	"copyright": "© 2018 MARVEL",

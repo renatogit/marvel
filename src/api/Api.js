@@ -24,6 +24,6 @@ class Api {
 
 // console.log('apikey: ', PUBLIC_KEY, 'ts: ', ts, 'hash: ', hash );
 
-console.log('Url: ',Url + 'characters' + '?ts=' + ts + '&apikey=' + PUBLIC_KEY + '&hash=' + hash);
+// console.log('Url: ',Url + 'characters' + '?ts=' + ts + '&apikey=' + PUBLIC_KEY + '&hash=' + hash);
 
 export default Api;

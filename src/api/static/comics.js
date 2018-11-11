@@ -1,4 +1,4 @@
-var data = {
+const COMICS = {
 	"code": 200,
 	"status": "Ok",
 	"copyright": "© 2018 MARVEL",
@@ -2558,3 +2558,5 @@ var data = {
 		]
 	}
 }
+
+export default COMICS;

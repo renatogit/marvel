@@ -3306,3 +3306,5 @@ const SERIES = {
 		]
 	}
 }
+
+export default SERIES;

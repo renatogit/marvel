@@ -6,7 +6,7 @@ $gold-number-width: calc(300px / 1.618033);
 
 .hero {
 	display: grid;
-	grid-template-columns: repeat(4, .8fr);
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 	grid-auto-rows: 350px;
 	grid-gap: 20px;
 	

@@ -13,8 +13,7 @@ class Footer extends React.Component{
 	}
 	render(){
 		const {data} = this.state;
-		console.log(data);
-		
+				
 		return(
 			<footer className="footer">
 				<span>{data.copyright}</span>

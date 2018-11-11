@@ -3389,3 +3389,5 @@ const CHARACTERS = {
 		]
 	}
 }
+
+export default CHARACTERS;
